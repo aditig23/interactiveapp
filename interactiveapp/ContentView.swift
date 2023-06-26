@@ -11,7 +11,7 @@ struct ContentView: View {
             TextField("", text: $name)
                 .multilineTextAlignment(.center)
                 .font(.title)
-                .border(Color.gray, width: 1)
+                .border(Color.purple, width: 1)
                 .padding()
             Button("Submit Name:") {
                 textTitle = "Welcome \(name)"
